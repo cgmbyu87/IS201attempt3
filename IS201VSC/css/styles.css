@@ -1,0 +1,126 @@
+<head><link rel="stylesheet" href="styles.css"></head>
+/*text color*/
+font-family: Georgia,
+'Times New Roman',
+Times,
+serif;
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Courier New', Courier, monospace text-align: center;
+    font-weight: 700;
+
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 600;
+    color: indianred;
+    background-color: cadetblue;
+}
+
+a {
+    
+    color: cadetblue;
+    font-size: large;
+}
+
+a:visited {
+    color: darkcyan;
+    font-size: large;
+}
+
+img {
+    < !--box model and padding-->border: 2px solid salmon;
+    padding: 3px;
+    /**centers stuff**/
+    display: block;
+    margin: auto;
+    
+}
+
+.imgcenter {
+    < !--box model and padding-->border: 2px solid salmon;
+    padding: 3px;
+    /**centers stuff**/
+    display: block;
+    margin: auto;
+    height: 500px;
+}
+
+.title1 {
+    position: relative;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: cadetblue;
+    background-color: white;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 35%;
+}
+
+.bodytext {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 5%;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.header1 {
+    font-size: 30;
+    font-weight: 700;
+    color: cadetblue;
+    background-color: lightcyan;
+    margin: 5px;
+    left: 0px;
+    right: 0px;
+}
+
+.dscript {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    background: rgba(255, 255, 255, .0);
+    border-radius: 0%;
+    text-align: center;
+    margin-left: 150px;
+    display: block;
+    margin: auto;
+    
+
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.learn{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.nav {
+    position: relative;
+    float: right;
+    z-index: 1;
+    margin: 12px;
+
+}
+
+</style>
